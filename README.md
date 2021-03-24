@@ -1,6 +1,6 @@
 # FREELANCE İŞ SİTESİ
 
-Uygulamamızın veri tabanı tasarımı
+Veri Tabanı Tasarımı
 
 USERS
 user_id
