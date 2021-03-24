@@ -21,7 +21,7 @@ customer_password
 customer_tel
 category_id
 price_id
-e_id
+evalution_id
 
 
 CATEGORY
