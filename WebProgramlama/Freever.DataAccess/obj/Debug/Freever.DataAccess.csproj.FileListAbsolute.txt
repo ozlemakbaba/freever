@@ -1,0 +1,6 @@
+C:\Users\Ozlem\source\repos\WebProgramlama\Freever.DataAccess\bin\Debug\Freever.DataAccess.dll
+C:\Users\Ozlem\source\repos\WebProgramlama\Freever.DataAccess\bin\Debug\Freever.DataAccess.pdb
+C:\Users\Ozlem\source\repos\WebProgramlama\Freever.DataAccess\obj\Debug\Freever.DataAccess.csprojAssemblyReference.cache
+C:\Users\Ozlem\source\repos\WebProgramlama\Freever.DataAccess\obj\Debug\Freever.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Ozlem\source\repos\WebProgramlama\Freever.DataAccess\obj\Debug\Freever.DataAccess.dll
+C:\Users\Ozlem\source\repos\WebProgramlama\Freever.DataAccess\obj\Debug\Freever.DataAccess.pdb

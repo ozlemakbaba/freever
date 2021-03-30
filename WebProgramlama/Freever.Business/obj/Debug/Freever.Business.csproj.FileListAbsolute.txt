@@ -1,0 +1,6 @@
+C:\Users\Ozlem\source\repos\WebProgramlama\Freever.Business\bin\Debug\Freever.Business.dll
+C:\Users\Ozlem\source\repos\WebProgramlama\Freever.Business\bin\Debug\Freever.Business.pdb
+C:\Users\Ozlem\source\repos\WebProgramlama\Freever.Business\obj\Debug\Freever.Business.csprojAssemblyReference.cache
+C:\Users\Ozlem\source\repos\WebProgramlama\Freever.Business\obj\Debug\Freever.Business.csproj.CoreCompileInputs.cache
+C:\Users\Ozlem\source\repos\WebProgramlama\Freever.Business\obj\Debug\Freever.Business.dll
+C:\Users\Ozlem\source\repos\WebProgramlama\Freever.Business\obj\Debug\Freever.Business.pdb
