@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Freever.Web.Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Blog.aspx.cs" Inherits="Freever.Web.Blog.Blog" %>
 
 <!DOCTYPE html>
 
@@ -35,11 +35,9 @@
         <div>
         </div>
     </form>
-
-    
-      <!-- loader  -->
+    <!-- loader  -->
       <div class="loader_bg">
-         <div class="loader"><img src="Resource/images/loading.gif" alt="" /></div>
+         <div class="loader"><img src="../Resource/images/loading.gif" alt="" /></div>
       </div>
       <!-- end loader -->
       <!-- header -->
@@ -59,17 +57,17 @@
                      <div class="limit-box">
                         <nav class="main-menu">
                            <ul class="menu-area-main">
-                              <li class="active">
+                             <li>
                                  <a href="Default.aspx">Home</a>
                               </li>
                               <li>
-                                  <a href="About.aspx">About</a>
+                                 <a href="About.aspx">About</a>
                               </li>
-                              <li>
-                                  <a href="Marketing.aspx">Marketing</a>
+                              <li >
+                                 <a href="Marketing.aspx">Marketing</a>
                               </li>
-                              <li>
-                                  <a href="Blog.aspx">Blog</a>
+                              <li class="active">
+                                 <a href="Blog.aspx">Blog</a>
                               </li>
                               <li>
                                  <a href="Contact.aspx">Contact Us</a>
@@ -81,7 +79,7 @@
                                  <a href="Register.aspx">Register</a>
                               </li>
                               <li>
-                                 <a href="#"><img src="Resource/images/search_icon.png" alt="#" /></a>
+                                 <a href="#"><img src="../Resource/images/search_icon.png" alt="#" /></a>
                               </li>
                            </ul>
                         </nav>
@@ -94,114 +92,44 @@
       </header>
       <!-- end header -->
       <!-- revolution slider -->
-      <div class="banner-slider">
-         <div class="container-fluid">
+      
+<div class="Blog-bg">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-12">
+            <div class="Blogheading">
+               <h3>Blog </h3>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+
+
+      <!-- section --> 
+      <div class="section layout_padding blog_blue_bg light_silver">
+         <div class="container">
+            
             <div class="row">
-               <div class="col-md-7">
-                  <div id="slider_main" class="carousel slide" data-ride="carousel">
-                     <!-- The slideshow -->
-                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                           <img src="Resource/images/slider_1.png" alt="#" />
-                        </div>
-                        <div class="carousel-item">
-                           <img src="Resource/images/slider_1.png" alt="#" />
-                        </div>
+               <div class="col-md-8 offset-md-2">
+                  <div class="full">
+                     <div class="big_blog">
+                        <img class="img-responsive" src="../Resource/images/blog_1.png" alt="#" />
                      </div>
-                     <!-- Left and right controls -->
-                     <a class="carousel-control-prev" href="#slider_main" data-slide="prev">
-                     <i class="fa fa-angle-left" aria-hidden="true"></i>
-                     </a>
-                     <a class="carousel-control-next" href="#slider_main" data-slide="next">
-                     <i class="fa fa-angle-right" aria-hidden="true"></i>
-                     </a>
-                  </div>
-               </div>
-               <div class="col-md-5">
-                  <div class="full slider_cont_section">
-                     <h4></h4>
-                     <h3>FREELANCE JOB OPPORTUNITIES</h3>
-                     <p>Herhangi bir iş için en iyi serbest çalışanları çevrimiçi olarak işe alın.</p>
-                     <div class="button_section">
-                        <a href="register.html">Register</a>
-                        <a href="contact.html">Contact Us</a>
+                     <div class="blog_cont_2">
+                        <h3>Why do we use it</h3>
+                        <p class="sublittle">March 19 2019  5 READ</p>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters as opposed to using Content here content here making..</p>
                      </div>
                   </div>
                </div>
             </div>
          </div>
       </div>
-      <!-- end revolution slider -->
-      <!-- section --> 
-      <div class="section layout_padding">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="heading">
-                     <h3>About <span class="orange_color">Us</span></h3>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-md-6">
-                  <img src="Resource/images/blog1.png" alt="#" />
-               </div>
-               <div class="col-md-6">
-                  <div class="full blog_cont">
-                     <h4>The biggest and most awesome camera  of  year</h4>
-                     <h5>MAY 14 2019 5 READ</h5>
-                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-                  </div>
-               </div>
-            </div>
-            <div class="row margin_top_30">
-               <div class="col-md-6">
-                  <img src="Resource/images/blog2.png" alt="#" />
-               </div>
-               <div class="col-md-6">
-                  <div class="full blog_cont">
-                     <h4>FREEVER</h4>
-                     <h5>FREELANCE JOB OPPORTUNITIES</h5>
-                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-                  </div>
-               </div>
-            </div>
-            <div class="row margin_top_30">
-               <div class="col-md-12">
-                  <div class="button_section full center margin_top_30">
-                     <a style="margin:0;" href="about.html">Read More</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
       <!-- end section -->
-      <!-- section --> 
-      <div class="section layout_padding dark_bg">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="heading">
-                     <h3>Marketing</h3>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-md-6">
-                  <img src="Resource/images/marketing_img.png" alt="#" />
-               </div>
-               <div class="col-md-6">
-                  <div class="full blog_cont">
-                     <h3 class="white_font">Where can I get some</h3>
-                     <h5 class="grey_font">March 19 2019 5 READ</h5>
-                     <p class="white_font">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined g to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator..</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- end section -->
-      <!-- section -->
+
+<!-- section -->
       <section class="layout_padding">
          <div class="container">
             <div class="row">
@@ -216,7 +144,7 @@
                   <div class="full comment_blog_line">
                      <div class="row">
                         <div class="col-md-1">
-                           <img src="Resource/images/c_1.png" alt="#" />
+                           <img src="../Resource/images/c_1.png" alt="#" />
                         </div>
                         <div class="col-md-9">
                            <div class="full contact_text">
@@ -235,7 +163,7 @@
                   <div class="full comment_blog_line">
                      <div class="row">
                         <div class="col-md-1">
-                           <img src="Resource/images/c_2.png" alt="#" />
+                           <img src="../Resource/images/c_2.png" alt="#" />
                         </div>
                         <div class="col-md-9">
                            <div class="full contact_text">
@@ -263,7 +191,7 @@
             <div class="row">
                <div class="col-md-12">
                   <div class="full comment_form">
-                     <form action="index.html">
+                     <form action="../Default.aspx">
                         <fieldset>
                            <div class="col-md-12">
                               <div class="row">
@@ -291,43 +219,17 @@
          </div>
       </section>
       <!-- end section -->
-      <!-- section --> 
-      <div class="section layout_padding blog_blue_bg light_silver">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-8 offset-md-2">
-                  <div class="heading">
-                     <h3>Blog</h3>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-md-8 offset-md-2">
-                  <div class="full">
-                     <div class="big_blog">
-                        <img class="img-responsive" src="Resource/images/blog_1.png" alt="#" />
-                     </div>
-                     <div class="blog_cont_2">
-                        <h3>Why do we use it</h3>
-                        <p class="sublittle">March 19 2019  5 READ</p>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters as opposed to using Content here content here making..</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- end section -->
+      
       <!-- footer -->
       <footer>
          <div class="container">
             <div class="row">
                <div class="col-lg-4 col-md-6">
-                  <a href="#"><img src="Resource/images/footer_logo.png" alt="#" /></a>
+                  <a href="#"><img src="../Resource/images/footer_logo.png" alt="#" /></a>
                   <ul class="contact_information">
-                     <li><span><img src="Resource/images/location_icon.png" alt="#" /></span><span class="text_cont">London 145<br/>United Kingdom</span></li>
-                     <li><span><img src="Resource/images/phone_icon.png" alt="#" /></span><span class="text_cont">987 654 3210<br/>987 654 3210</span></li>
-                     <li><span><img src="Resource/images/mail_icon.png" alt="#" /></span><span class="text_cont">demo@gmail.com<br/>support@gmail.com</span></li>
+                     <li><span><img src="../Resource/images/location_icon.png" alt="#" /></span><span class="text_cont">London 145<br>United Kingdom</span></li>
+                     <li><span><img src="../Resource/images/phone_icon.png" alt="#" /></span><span class="text_cont">987 654 3210<br>987 654 3210</span></li>
+                     <li><span><img src="../Resource/images/mail_icon.png" alt="#" /></span><span class="text_cont">demo@gmail.com<br>support@gmail.com</span></li>
                   </ul>
                   <ul class="social_icon">
                      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -354,17 +256,17 @@
                   <div class="footer_links">
                      <h3>Instagram</h3>
                      <ol>
-                        <li><img class="img-responsive" src="Resource/images/footer_blog.png" alt="#" /></li>
-                        <li><img class="img-responsive" src="Resource/images/footer_blog.png" alt="#" /></li>
-                        <li><img class="img-responsive" src="Resource/images/footer_blog.png" alt="#" /></li>
-                        <li><img class="img-responsive" src="Resource/images/footer_blog.png" alt="#" /></li>
+                        <li><img class="img-responsive" src="../Resource/images/footer_blog.png" alt="#" /></li>
+                        <li><img class="img-responsive" src="../Resource/images/footer_blog.png" alt="#" /></li>
+                        <li><img class="img-responsive" src="../Resource/images/footer_blog.png" alt="#" /></li>
+                        <li><img class="img-responsive" src="../Resource/images/footer_blog.png" alt="#" /></li>
                      </ol>
                   </div>
                </div>
                <div class="col-lg-3 col-md-6">
                   <div class="footer_links">
                      <h3>Contact us</h3>
-                     <form action="index.html">
+                     <form action="../Default.aspx">
                         <fieldset>
                            <div class="field">
                               <input type="text" name="name" placeholder="Your Name" required="" />
@@ -401,13 +303,13 @@
       </div>
       <!-- end footer -->
       <!-- Javascript files-->
-      <script src="Resource/js/jquery.min.js"></script>
-      <script src="Resource/js/popper.min.js"></script>
-      <script src="Resource/js/bootstrap.bundle.min.js"></script>
-      <script src="Resource/js/jquery-3.0.0.min.js"></script>
-      <script src="Resource/js/plugin.js"></script>
+      <script src="../Resource/js/jquery.min.js"></script>
+      <script src="../Resource/js/popper.min.js"></script>
+      <script src="../Resource/js/bootstrap.bundle.min.js"></script>
+      <script src="../Resource/js/jquery-3.0.0.min.js"></script>
+      <script src="../Resource/js/plugin.js"></script>
       <!-- Scrollbar Js Files -->
-      <script src="Resource/js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="Resource/js/custom.js"></script>
+      <script src="../Resource/js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="../Resource/js/custom.js"></script>
 </body>
 </html>
