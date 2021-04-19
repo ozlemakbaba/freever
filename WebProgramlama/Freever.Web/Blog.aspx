@@ -78,9 +78,6 @@
                               <li>
                                  <a href="Register.aspx">Register</a>
                               </li>
-                              <li>
-                                 <a href="#"><img src="../Resource/images/search_icon.png" alt="#" /></a>
-                              </li>
                            </ul>
                         </nav>
                      </div>
@@ -242,13 +239,13 @@
                   <div class="footer_links">
                      <h3>Quick link</h3>
                      <ul>
-                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Home</a></li>
-                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Features</a></li>
-                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Evens</a></li>
-                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Markrting</a></li>
-                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Blog</a></li>
-                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Testimonial</a></li>
-                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Contact</a></li>
+                        <li><a href="Default.aspx"><i class="fa fa-angle-right" aria-hidden="true"></i> Home</a></li>
+                        <li><a href="About.aspx"><i class="fa fa-angle-right" aria-hidden="true"></i> About</a></li>
+                        <li><a href="Marketing.aspx"><i class="fa fa-angle-right" aria-hidden="true"></i> Marketing</a></li>
+                        <li><a href="Blog.aspx"><i class="fa fa-angle-right" aria-hidden="true"></i> Blog</a></li>
+                        <li><a href="Contact.aspx"><i class="fa fa-angle-right" aria-hidden="true"></i> Contact Us</a></li>
+                        <li><a href="Login.aspx"><i class="fa fa-angle-right" aria-hidden="true"></i> Login</a></li>
+                        <li><a href="Register.aspx"><i class="fa fa-angle-right" aria-hidden="true"></i> Register</a></li>
                      </ul>
                   </div>
                </div>

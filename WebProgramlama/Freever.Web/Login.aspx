@@ -71,9 +71,6 @@
                               <li>
                                  <a href="Register.aspx">Register</a>
                               </li>
-                              <li>
-                                 <a href="#"><img src="../Resource/images/search_icon.png" alt="#" /></a>
-                              </li>
                            </ul>
                         </nav>
                      </div>
@@ -88,7 +85,7 @@
         <!-- For Demo Purpose -->
         <div class="col-md-5 pr-lg-5 mb-5 mb-md-0">
             <img src="https://res.cloudinary.com/mhmd/image/upload/v1569543678/form_d9sh6m.svg" alt="" class="img-fluid mb-3 d-none d-md-block">
-            <h1>Create an Account</h1>
+            <h1>Login Account</h1>
         </div>
 
         <!-- Registeration Form -->
@@ -96,10 +93,10 @@
             <form action="#">
                 <div class="row">
 
-
+                 
 
                     <!-- Email Address -->
-                    <div class="input-group col-lg-6 mb-4">
+                    <div class="input-group col-lg-12 mb-4">
                         <div class="input-group-prepend">
                             <span class="input-group-text bg-white px-4 border-md border-right-0">
                                 <i class="fa fa-envelope text-muted"></i>
@@ -109,7 +106,7 @@
                     </div>
 
                     <!-- Password -->
-                    <div class="input-group col-lg-6 mb-4">
+                    <div class="input-group col-lg-12 mb-4">
                         <div class="input-group-prepend">
                             <span class="input-group-text bg-white px-4 border-md border-right-0">
                                 <i class="fa fa-lock text-muted"></i>
@@ -149,6 +146,7 @@
                     <div class="text-center w-100">
                         <p class="text-muted font-weight-bold">Already Registered? <a href="Register.aspx" class="text-primary ml-2">Register</a></p>
                     </div>
+
                    
 
                 </div>
@@ -156,5 +154,87 @@
         </div>
     </div>
 </div>
+<!-- footer -->
+      <footer>
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-4 col-md-6">
+                  <a href="#"><img src="../Resource/images/footer_logo.png" alt="#" /></a>
+                  <ul class="contact_information">
+                     <li><span><img src="../Resource/images/location_icon.png" alt="#" /></span><span class="text_cont">London 145<br>United Kingdom</span></li>
+                     <li><span><img src="../Resource/images/phone_icon.png" alt="#" /></span><span class="text_cont">987 654 3210<br>987 654 3210</span></li>
+                     <li><span><img src="../Resource/images/mail_icon.png" alt="#" /></span><span class="text_cont">demo@gmail.com<br>support@gmail.com</span></li>
+                  </ul>
+                  <ul class="social_icon">
+                     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                     <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                     <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  </ul>
+               </div>
+               <div class="col-lg-2 col-md-6">
+                  <div class="footer_links">
+                     <h3>Quick link</h3>
+                     <ul>
+                        <li><a href="Default.aspx"><i class="fa fa-angle-right" aria-hidden="true"></i> Home</a></li>
+                        <li><a href="About.aspx"><i class="fa fa-angle-right" aria-hidden="true"></i> About</a></li>
+                        <li><a href="Marketing.aspx"><i class="fa fa-angle-right" aria-hidden="true"></i> Marketing</a></li>
+                        <li><a href="Blog.aspx"><i class="fa fa-angle-right" aria-hidden="true"></i> Blog</a></li>
+                        <li><a href="Contact.aspx"><i class="fa fa-angle-right" aria-hidden="true"></i> Contact Us</a></li>
+                        <li><a href="Login.aspx"><i class="fa fa-angle-right" aria-hidden="true"></i> Login</a></li>
+                        <li><a href="Register.aspx"><i class="fa fa-angle-right" aria-hidden="true"></i> Register</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-6">
+                  <div class="footer_links">
+                     <h3>Instagram</h3>
+                     <ol>
+                        <li><img class="img-responsive" src="../Resource/images/footer_blog.png" alt="#" /></li>
+                        <li><img class="img-responsive" src="../Resource/images/footer_blog.png" alt="#" /></li>
+                        <li><img class="img-responsive" src="../Resource/images/footer_blog.png" alt="#" /></li>
+                        <li><img class="img-responsive" src="../Resource/images/footer_blog.png" alt="#" /></li>
+                     </ol>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-6">
+                  <div class="footer_links">
+                     <h3>Contact us</h3>
+                     <form action="../Default.aspx">
+                        <fieldset>
+                           <div class="field">
+                              <input type="text" name="name" placeholder="Your Name" required="" />
+                           </div>
+                           <div class="field">
+                              <input type="email" name="email" placeholder="Email" required="" />
+                           </div>
+                           <div class="field">
+                              <input type="text" name="subject" placeholder="Subject" required="" />
+                           </div>
+                           <div class="field">
+                              <textarea placeholder="Message"></textarea>
+                           </div>
+                           <div class="field">
+                              <div class="center">
+                                 <button class="reply_bt">Send</button>
+                              </div>
+                           </div>
+                        </fieldset>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <div class="cpy">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <p>Copyright © 2019 Design by <a href="https://html.design/">Free Html Templates</a></p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end footer -->
 </body>
 </html>

@@ -44,6 +44,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.Entity" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -71,7 +72,6 @@
     <Content Include="Blog.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Default.aspx" />
-    <Content Include="deneme.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Marketing.aspx" />
     <Content Include="Register.aspx" />
@@ -120,6 +120,7 @@
     <Content Include="Resource\js\plugin.js" />
     <Content Include="Resource\js\popper.min.js" />
     <Content Include="Web.config" />
+    <Content Include="sablon.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="About.aspx.cs">
@@ -157,13 +158,6 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="deneme.aspx.cs">
-      <DependentUpon>deneme.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="deneme.aspx.designer.cs">
-      <DependentUpon>deneme.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -185,6 +179,13 @@
     </Compile>
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sablon.aspx.cs">
+      <DependentUpon>sablon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sablon.aspx.designer.cs">
+      <DependentUpon>sablon.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
