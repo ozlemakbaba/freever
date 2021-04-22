@@ -119,6 +119,7 @@
     <Content Include="Resource\js\login.html" />
     <Content Include="Resource\js\plugin.js" />
     <Content Include="Resource\js\popper.min.js" />
+    <Content Include="Singin.aspx" />
     <Content Include="Web.config" />
     <Content Include="sablon.aspx" />
   </ItemGroup>
@@ -186,6 +187,13 @@
     </Compile>
     <Compile Include="sablon.aspx.designer.cs">
       <DependentUpon>sablon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Singin.aspx.cs">
+      <DependentUpon>Singin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Singin.aspx.designer.cs">
+      <DependentUpon>Singin.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

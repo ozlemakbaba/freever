@@ -91,7 +91,7 @@
 
         <!-- Registeration Form -->
         <div class="col-md-7 col-lg-6 ml-auto">
-            <form action="#">
+            <form id="form1" runat="server">
                 <div class="row">
 
                     <!-- First Name -->
@@ -101,7 +101,7 @@
                                 <i class="fa fa-user text-muted"></i>
                             </span>
                         </div>
-                        <input id="firstName" type="text" name="firstname" placeholder="First Name" class="form-control bg-white border-left-0 border-md">
+                        <asp:TextBox ID="firstName" type="text" name="firstname" placeholder="First Name" CssClass="form-control bg-white border-left-0 border-md" runat="server" Text="First Name"></asp:TextBox>                      
                     </div>
 
                     <!-- Last Name -->
@@ -111,7 +111,7 @@
                                 <i class="fa fa-user text-muted"></i>
                             </span>
                         </div>
-                        <input id="lastName" type="text" name="lastname" placeholder="Last Name" class="form-control bg-white border-left-0 border-md">
+                        <asp:TextBox ID="lastName" type="text" name="lastname" placeholder="Last Name" CssClass="form-control bg-white border-left-0 border-md" runat="server" Text="Last Name"></asp:TextBox>                      
                     </div>
 
                     <!-- Email Address -->
@@ -121,7 +121,7 @@
                                 <i class="fa fa-envelope text-muted"></i>
                             </span>
                         </div>
-                        <input id="email" type="email" name="email" placeholder="Email Address" class="form-control bg-white border-left-0 border-md">
+                       <asp:TextBox ID="email" type="email" name="email" placeholder="Email Address" CssClass="form-control bg-white border-left-0 border-md" runat="server" Text="Email"></asp:TextBox>
                     </div>
 
                     <!-- Phone Number -->
@@ -137,7 +137,7 @@
                             <option value="">+15</option>
                             <option value="">+18</option>
                         </select>
-                        <input id="phoneNumber" type="tel" name="phone" placeholder="Phone Number" class="form-control bg-white border-md border-left-0 pl-3">
+                        <asp:TextBox ID="phoneNumber" type="tel" name="phone" placeholder="Phone Number" CssClass="form-control bg-white border-md border-left-0 pl-3" runat="server" Text="Phone Number"></asp:TextBox>
                     </div>.
 
 
@@ -157,6 +157,8 @@
                         </select>
                     </div>
 
+
+                    
                     <!-- Password -->
                     <div class="input-group col-lg-6 mb-4">
                         <div class="input-group-prepend">
@@ -164,7 +166,7 @@
                                 <i class="fa fa-lock text-muted"></i>
                             </span>
                         </div>
-                        <input id="password" type="password" name="password" placeholder="Password" class="form-control bg-white border-left-0 border-md">
+                        <asp:TextBox ID="password" type="password" name="password" placeholder="Password" CssClass="form-control bg-white border-left-0 border-md" runat="server" Text="Password"></asp:TextBox>  
                     </div>
 
                     <!-- Password Confirmation -->
@@ -174,19 +176,19 @@
                                 <i class="fa fa-lock text-muted"></i>
                             </span>
                         </div>
-                        <input id="passwordConfirmation" type="text" name="passwordConfirmation" placeholder="Confirm Password" class="form-control bg-white border-left-0 border-md">
+                        <asp:TextBox ID="passwordConfirmation" type="text" name="passwordConfirmation" placeholder="Confirm Password" CssClass="form-control bg-white border-left-0 border-md" runat="server" Text="Confirm"></asp:TextBox>
                     </div>
 
-                    <!-- Submit Button -->
-                    <div class="form-group col-lg-12 mx-auto mb-0">
-                        <a href="#" class="btn btn-primary btn-block py-2">
-                            <span class="font-weight-bold">Create your account</span>
-                        </a>
+                    <!-- Create accont Button -->                
+                   <div class="form-group col-lg-12 mx-auto mb-0">
+                       <asp:Button ID="Create" CssClass="btn btn-primary btn-block py-2" runat="server" Text="Create your accont" onClick="Create_Click"/>
+                       
                     </div>
-
+                    <asp:Label ID="durumLbl" runat="server" Font-Bold="True" Font-Underline="True" ForeColor="Red"></asp:Label>
                     <!-- Divider Text -->
                     <div class="form-group col-lg-12 mx-auto d-flex align-items-center my-4">
-                        <div class="border-bottom w-100 ml-5"></div>
+                        <div class="border-bottom w-100 ml-5">
+                        </div>
                         <span class="px-2 small text-muted font-weight-bold text-muted">OR</span>
                         <div class="border-bottom w-100 mr-5"></div>
                     </div>

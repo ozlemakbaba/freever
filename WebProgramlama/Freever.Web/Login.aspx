@@ -90,7 +90,7 @@
 
         <!-- Registeration Form -->
         <div class="col-md-7 col-lg-6 ml-auto">
-            <form action="#">
+            <form id="form1" runat="server">
                 <div class="row">
 
                  
@@ -102,7 +102,7 @@
                                 <i class="fa fa-envelope text-muted"></i>
                             </span>
                         </div>
-                        <input id="email" type="email" name="email" placeholder="Email Address" class="form-control bg-white border-left-0 border-md">
+                        <asp:TextBox ID="email" type="email" name="email" placeholder="Email Address" CssClass="form-control bg-white border-left-0 border-md" runat="server" Text="Email"></asp:TextBox>
                     </div>
 
                     <!-- Password -->
@@ -112,15 +112,13 @@
                                 <i class="fa fa-lock text-muted"></i>
                             </span>
                         </div>
-                        <input id="password" type="password" name="password" placeholder="Password" class="form-control bg-white border-left-0 border-md">
+                        <asp:TextBox ID="password" type="password" name="password" placeholder="Password" CssClass="form-control bg-white border-left-0 border-md" runat="server" Text="Password"></asp:TextBox>
                     </div>
-
+                    <asp:Label ID="durumLbl" runat="server" Text="" Font-Bold="True" ForeColor="Red" Font-Underline="True"></asp:Label>
 
                     <!-- Submit Button -->
                     <div class="form-group col-lg-12 mx-auto mb-0">
-                        <a href="#" class="btn btn-primary btn-block py-2">
-                            <span class="font-weight-bold">Login</span>
-                        </a>
+                        <asp:Button ID="Submit" CssClass="btn btn-primary btn-block py-2" runat="server" Text="Login" onClick="Submit_Click"/>
                     </div>
 
                     <!-- Divider Text -->

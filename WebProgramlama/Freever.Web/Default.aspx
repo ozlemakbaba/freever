@@ -120,8 +120,8 @@
                      <h3>FREELANCE JOB OPPORTUNITIES</h3>
                      <p>Herhangi bir iş için en iyi serbest çalışanları çevrimiçi olarak işe alın.</p>
                      <div class="button_section">
-                        <a href="register.html">Register</a>
-                        <a href="contact.html">Contact Us</a>
+                        <a href="Register.aspx">Register</a>
+                        <a href="Contact.aspx">Contact Us</a>
                      </div>
                   </div>
                </div>
