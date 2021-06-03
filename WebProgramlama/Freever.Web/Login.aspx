@@ -102,7 +102,7 @@
                                 <i class="fa fa-envelope text-muted"></i>
                             </span>
                         </div>
-                        <asp:TextBox ID="email" type="email" name="email" placeholder="Email Address" CssClass="form-control bg-white border-left-0 border-md" runat="server" Text="Email"></asp:TextBox>
+                        <asp:TextBox ID="useremail" type="email" name="email" placeholder="Email Address" CssClass="form-control bg-white border-left-0 border-md" runat="server" Text="Email"></asp:TextBox>
                     </div>
 
                     <!-- Password -->

@@ -27,18 +27,18 @@ namespace Freever.Web.Login
         protected void Submit_Click(object sender, EventArgs e)
         {
          
-            if (email.Text == "" || password.Text == "")
+            if (useremail.Text == "" || password.Text == "")
             {
                 durumLbl.Text = "Email veya sifre bilgilerinizi kontrol ediniz";
             }
             else
             {
                 Ozellikler yeniKisi = new Ozellikler();
-                yeniKisi.useremail = email.Text;
+                yeniKisi.useremail = useremail.Text;
                 yeniKisi.userpassword = password.Text;
 
                 Dbconnection db = new Dbconnection();
-                var outh = db.KullaniciGiris(email.Text, password.Text);
+                var outh = db.KullaniciGiris(yeniKisi.useremail, yeniKisi.userpassword);
                 if (outh == true) 
                 {
                     Response.Redirect("Singin.aspx");
@@ -49,7 +49,7 @@ namespace Freever.Web.Login
 
                 }
 
-
+                Response.Redirect("/signal.aspx");
                
             }
 
